@@ -29,8 +29,6 @@ class Youtube:
 
 			songs += parse(response, 'title')
 
-			break
-
 			if not nextPageToken:
 				break
 
